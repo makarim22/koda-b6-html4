@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <header>
+    <header class="sticky-header">
         <nav>
             <ul>
                 <li><a href="#">How It Works</a></li>
@@ -21,11 +21,20 @@
         </nav>
     </header>
 
-    <section>
+<section>
+    <div style="display: inline-block; width: 40%; vertical-align: top; padding: 10px;">    
         <h1>Carsharing</h1>
-        <p>Book a car near you and drive in minutes</p>
-        <p>Book the selected car instantly. pay for driving only. Join our service instantly by installing our app</p>
-    </section>
+        <p class="title">Book a car near you and drive in minutes.</p>
+        <p>Book the selected car instantly. Pay for driving only. Join our service instantly by installing our app.</p>
+        <div style="display: inline-block;">
+            <img src="./src/playstore.svg" height="150px"; width="200px">
+            <img src="./src/appstore.svg" height="150px"; width="200px">
+        </div>
+    </div>
+    <div style="display: inline-block; width: 50%; text-align: right; padding: 10px;">
+        <img style="height: auto; max-width: 100%;" src="./src/car.png" alt="Car Image">
+    </div>
+</section>
 
     <section>
         <h2>How It Works</h2>
@@ -67,7 +76,7 @@
 
     <div class="sticky-wa"> 
         <a href="https://wa.me/81529939012" target="_blank">
-        <img src="wa.svg" alt="WhatsApp Icon" style="width: 50px; height: 50px;"> 
+        <img src="./src/wa.svg" alt="WhatsApp Icon" style="width: 50px; height: 50px;"> 
     </a>
     </div>
 </body>
