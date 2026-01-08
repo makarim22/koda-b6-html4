@@ -1,0 +1,6 @@
+    .sticky {
+            position: sticky; 
+            bottom: 0; 
+            text-align: right;
+            padding: 10px;
+        }
